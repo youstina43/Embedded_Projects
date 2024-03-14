@@ -1,0 +1,26 @@
+/*
+ * TIMER0_Confg.h
+ *
+ * Created: 9/17/2023 11:27:40 AM
+ *  Author: youstina
+ */ 
+
+
+#ifndef TIMER0_CONFG_H_
+#define TIMER0_CONFG_H_
+
+/*TMR0_NORMAL_MODE TMR0_CTC_MODE*/
+
+
+#define TMR0_MODE   TMR0_FAST_PWM_MODE
+#define PRELOAD_VALUE  113
+
+#define TMR0_OVER_FLOW_COUNTER 977
+
+#define TMR0_CTC_COUNTER 4500
+
+#define TMR0_PWM_ACTION  TMR0_NON_INVERTED
+
+#define OC0  DIO_PIN3
+
+#endif /* TIMER0_CONFG_H_ */
